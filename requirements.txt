@@ -1,0 +1,26 @@
+# 视频剪辑工具项目依赖
+# 核心依赖
+PySide6==6.9.1
+moviepy==1.0.3
+faster-whisper==1.2.0
+
+# 视频处理相关
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+av==15.0.0
+
+# 音频处理
+python-vlc==3.0.21203
+
+# 数据处理
+numpy==2.2.6
+pillow==11.3.0
+
+# 其他工具包
+requests==2.32.5
+tqdm==4.67.1
+python-dotenv==1.1.1
+
+# 注意：需要系统安装FFmpeg并添加到PATH环境变量中
+# Windows用户可以从 https://ffmpeg.org/download.html 下载
+# 或者使用 chocolatey: choco install ffmpeg
